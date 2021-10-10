@@ -1,4 +1,4 @@
-package practice;
+package calculator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 /**
  * The type Calculator.
  */
-public class Calculator {
+public class PracticeCalculator {
 
     private final String patternStr = "[\\/][\\/](.*?)[\\\\n]";
 

@@ -1,5 +1,6 @@
-package practice;
+package calculator;
 
+import calculator.PracticeCalculator;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -9,9 +10,9 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class CalculatorTest {
+public class PracticeCalculatorTest {
 
-    private Calculator cal;
+    private PracticeCalculator cal;
     private final String customSeparatorStr = "//;\\n1;2;3";
     private final String defaultSeparatorStr = "1,2,3";
     private final String allSeparatorStr = "//@\\n1,2:3@4";
@@ -22,7 +23,7 @@ public class CalculatorTest {
 
     @Before
     public void setup() {
-        cal = new Calculator();
+        cal = new PracticeCalculator();
     }
 
     @Test
